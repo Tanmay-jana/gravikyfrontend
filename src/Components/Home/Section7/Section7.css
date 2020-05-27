@@ -1,0 +1,64 @@
+.section7-container {
+    background-image: url('../../../assets/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10% 10% 17% 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section7-left {
+    width: 50%;
+}
+
+.section7-left > h1 {
+    font-family: 'JosefinBold';
+    font-size: 450%;
+    margin: 0;
+}
+
+.section7-left > p {
+    font-family: 'WorkSinLight';
+    font-size: 150%;
+    line-height: 150%;
+    margin: 0;
+}
+
+.card-img {
+    width: 45%;
+}
+
+.section7-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 10%;
+}
+
+.partner-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #095CE5;
+    border-radius: 30px;
+    width: 47%;
+    height: 50px;
+    font-size: 110%;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'WorkSinRegular';
+}
+
+.watch-video-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    text-decoration: none;
+}
+
+.watch-video-button > img {
+    width: 15%;
+}

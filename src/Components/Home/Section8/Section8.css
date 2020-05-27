@@ -1,0 +1,17 @@
+.section8-container {
+    background-image: url('../../../assets/meeting.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15% 10%;
+}
+
+.section8-text {
+    font-family: 'WorkSinLight';
+    color: #fff;
+    text-align: center;
+    font-size: 250%
+}
+
+.section8-text > span {
+    font-family: 'WorkSinMedium';
+}

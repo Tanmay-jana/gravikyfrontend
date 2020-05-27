@@ -1,0 +1,53 @@
+.section9-container {
+    padding: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section9-container > h1 {
+    font-family: 'JosefinBold';
+    font-size: 450%;
+    margin: 0;
+}
+
+.section9-container > p {
+    font-family: 'WorkSinLight';
+    font-size: 150%;
+    width: 60%;
+    text-align: center;
+    line-height: 150%;
+}
+
+.message-send-form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.form-input {
+    padding: 3% 5%;
+    background: #fff;
+    font-family: 'WorkSinRegular';
+    font-size: 130%;
+    border: 2px solid #DDDDDD;
+    border-radius: 35px;
+    margin: 2% 0%;
+    resize: none;
+}
+
+.form-input::placeholder {
+    color: #C6C6C6;
+}
+
+.submit-button {
+    background: #202020;
+    color: #fff;
+    margin: 2% 0%;
+    padding: 3% 5%;
+    border-radius: 35px;
+    border: none;
+    font-size: 130%;
+    font-family: 'WorkSinRegular';
+}

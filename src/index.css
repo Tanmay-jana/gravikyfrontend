@@ -56,3 +56,8 @@ html {
   font-family: WorkSinMedium;
   src: url(../src/assets/Work_Sans/WorkSans-Medium.ttf)
 }
+
+@font-face {
+  font-family: WorkSinRegular;
+  src: url(../src/assets/Work_Sans/WorkSans-Regular.ttf)
+}
