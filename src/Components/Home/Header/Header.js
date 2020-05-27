@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import "./Header.css";
 import times from '../../../assets/Times.png';
@@ -36,10 +37,10 @@ export default class Header extends Component {
           GRAVIKY LABS
         </a>
         <div className="header-buttons-container">
-          <p>PRODUCTS</p>
-          <p>PARTNERSHIP</p>
-          <p>COMMUNITY</p>
-          <p>CONTACT</p>
+          <a href = "#">PRODUCTS</a>
+          <a href = "#">PARTNERSHIP</a>
+          <a href = "#">COMMUNITY</a>
+          <a href = "#">CONTACT</a>
           <div className="social-logo-container">
             <i
               onClick={() => window.open("https://facebook.com", "_blank")}
