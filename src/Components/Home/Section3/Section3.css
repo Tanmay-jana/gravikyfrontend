@@ -1,0 +1,33 @@
+.section3-container {
+    background: #FCFCFC;
+    width: 80%;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section3-subcontainer {
+    text-align: center;
+    color: #202020;
+    transition: 700ms;
+}
+
+.section3-subcontainer > h4 {
+    font-family: 'JosefinBold';
+    font-size: 600%;
+    margin: 0;
+}
+
+.section3-subcontainer > p {
+    font-family: 'WorkSinLight';
+    font-size: 130%;
+}
+
+.section3-subcontainer span {
+    font-family: 'WorkSinRegular';
+}
+
+.transparent {
+    color: transparent;
+}

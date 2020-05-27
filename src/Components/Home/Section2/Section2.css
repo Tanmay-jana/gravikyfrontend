@@ -1,0 +1,58 @@
+.section2-container {
+    width: 90%;
+    background-image: url('../../../assets/section2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10% 5%;
+    height: 100%;
+}
+
+.light-text {
+    font-family: 'WorkSinLight';
+    color: #fff;
+    padding: 0% 10%;
+    font-size: 150%;
+    margin: 0;
+    transition: 200ms;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.medium-text {
+    font-family: 'WorkSinRegular';
+    color: #fff;
+    padding: 0% 10%;
+    font-size: 150%;
+    margin: 0;
+    margin-top: 3%;
+    transition: 700ms;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.learn-more-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #095CE5;
+    border-radius: 30px;
+    width: 18%;
+    height: 57px;
+    font-size: 120%;
+    margin-top: 5%;
+}
+
+.learn-more-button > a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'WorkSinRegular';
+}

@@ -1,0 +1,53 @@
+.main-header-container {
+    position: fixed;
+    width: 86%;
+    display: flex;
+    padding: 0% 7%;
+    align-items: center;
+    color: #202020;
+    justify-content: space-between;
+    transition: 300ms;
+}
+
+.main-header-container-1 {
+    position: fixed;
+    width: 86%;
+    display: flex;
+    padding: 0% 7%;
+    align-items: center;
+    color: #202020;
+    justify-content: space-between;
+    background: #fff;
+    transition: 300ms;
+    z-index: 100;
+}
+
+.logo-text {
+    font-family: 'JosefinBold';
+    text-decoration: none;
+    color: #202020;
+}
+
+.header-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'JosefinBold';
+    width: 60%;
+}
+
+.social-logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.times-img {
+    width: 10%;
+    transition: 300ms;
+}
+
+.time-img-small {
+    width: 7%;
+    transition: 300ms;
+}
