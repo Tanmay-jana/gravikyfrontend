@@ -20,6 +20,9 @@
     background: #fff;
     transition: 300ms;
     z-index: 100;
+    -webkit-box-shadow: 0 8px 6px -6px #DDDDDD;
+    -moz-box-shadow: 0 8px 6px -6px #DDDDDD;
+    box-shadow: 0 8px 6px -6px #DDDDDD;
 }
 
 .logo-text {

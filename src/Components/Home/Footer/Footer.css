@@ -1,5 +1,69 @@
 .footer-container {
-    padding: 10%;
+    padding:  4% 5%;
     background: #202020;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container h4 {
+    font-family: 'JosefinBold';
+    font-size: 91%;
+    margin: 0;
+}
+
+.footer-container p {
+    font-family: 'WorkSinLight';
+    font-size: 91%;
+    line-height: 180%;
+}
+
+.graviky-block {
+    width: 25%;
+}
+
+#copyright {
+    font-size: 80%;
+}
+
+.footer-links-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    font-family: 'JosefinBold';
+    font-size: 91%;
+    margin-bottom: 30%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social-block {
+    width: 10%;
+}
+
+.footer-icon-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20%;
+}
+
+.footer-icon-block a {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.footer-icon-block i {
+    color: #202020;
+}
+
+.contacts-block {
+    width: 19%;
 }
