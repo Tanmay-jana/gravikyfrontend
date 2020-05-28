@@ -14,6 +14,7 @@ export default class Section7 extends Component {
             We partnered with Mastercard credit cards in Europe to create Carbon
             Negative printing, in collaboration with UNFCCC .
           </p>
+          <img className = "card-img-mobile-version" src = {card} alt = "card"/>
           <div className = "section7-button-container">
               <a className = "partner-button" href = "#">Partner with us</a>
               <a className = "watch-video-button" href = "#"><img src = {play} alt = "Play"/>Watch Video</a>
