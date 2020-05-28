@@ -224,6 +224,14 @@
 }
 
 @media screen and (max-width: 500px) {
+    .main-header-container {
+        padding: 5%;
+    }
+
+    .main-header-container-1 {
+        padding: 5%;
+    }
+
     .logo-text {
         font-size: 100%;
     }
