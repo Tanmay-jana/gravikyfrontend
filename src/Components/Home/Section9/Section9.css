@@ -52,3 +52,74 @@
     font-size: 130%;
     font-family: 'WorkSinRegular';
 }
+
+@media screen and (max-width: 900px) {
+    .section9-container {
+        padding: 10% 5%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section9-container > h1 {
+        font-family: 'JosefinBold';
+        font-size: 300%;
+        margin: 0;
+    }
+    
+    .message-send-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-input {
+        padding: 3% 5%;
+        background: #fff;
+        font-family: 'WorkSinRegular';
+        font-size: 150%;
+        border: 2px solid #DDDDDD;
+        border-radius: 35px;
+        margin: 2% 0%;
+        resize: none;
+        outline: none;
+    }
+
+    .submit-button {
+        background: #202020;
+        color: #fff;
+        margin: 2% 0%;
+        padding: 3% 5%;
+        border-radius: 35px;
+        border: none;
+        font-size: 150%;
+        font-family: 'WorkSinRegular';
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .section9-container {
+        padding: 22% 5%;
+    }
+
+    .section9-container > h1 {
+        font-family: 'JosefinBold';
+        font-size: 250%;
+        margin: 0;
+    }
+
+    .section9-container > p {
+        font-size: 100%;
+    }
+
+    .form-input {
+        font-size: 100%;
+    }
+
+    .submit-button {
+        font-size: 100%;
+    }
+}

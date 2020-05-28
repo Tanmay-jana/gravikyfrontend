@@ -1,5 +1,5 @@
 .footer-container {
-    padding:  4% 5%;
+    padding: 4% 5%;
     background: #202020;
     color: #fff;
     display: flex;
@@ -66,4 +66,112 @@
 
 .contacts-block {
     width: 19%;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-social-block {
+        width: 20%;
+    }
+
+    .footer-icon-block a {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 20px;
+    }
+
+    .footer-icon-block i {
+        color: #202020;
+        font-size: 140%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer-container {
+        padding: 4% 5%;
+        background: #202020;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+        width: 90%;
+    }
+
+    .footer-link {
+        display: none;
+    }
+
+    .contacts-block {
+        width: 40%;
+        padding: 2%;
+        text-align: center;
+    }
+    
+    .graviky-block {
+        width: 40%;
+        padding: 2%;
+        text-align: center;
+        height: 200px;
+    }
+
+    .footer-social-block {
+        width: 30%;
+        padding: 2%;
+        text-align: center;
+        height: 200px;
+    }
+
+    .footer-icon-block {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .footer-container  {
+        padding: 10% 5%;
+        background: #202020;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+        width: 90%;
+        flex-direction: column;
+    }
+    .contacts-block {
+        width: 80%;
+        padding: 2%;
+        text-align: center;
+    }
+    
+    .graviky-block {
+        width: 80%;
+        padding: 2%;
+        text-align: center;
+        height: 200px;
+    }
+
+    .footer-social-block {
+        width: 60%;
+        padding: 2%;
+        text-align: center;
+        height: 130px;
+    }
+
+    .footer-icon-block {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10%;
+    }
 }

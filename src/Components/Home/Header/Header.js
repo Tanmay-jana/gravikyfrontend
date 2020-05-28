@@ -9,6 +9,14 @@ export default class Header extends Component {
     isNav: false
   };
 
+  isNav = () => {
+    this.setState({isNav: !this.state.isNav})
+  }
+
+  onClose = () => {
+    this.setState({isNav: false})
+  }
+
   componentDidMount = () => {
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY < 100;
@@ -36,6 +44,13 @@ export default class Header extends Component {
         <a href="/" className="logo-text">
           GRAVIKY LABS
         </a>
+        <i onClick = {this.isNav} className={this.state.isNav === false ?"fa fa-bars nav-icon":"fa fa-close nav-icon"}></i>
+        <div className={this.state.isNav === true ?"myLinks" : "invisible"}>
+          <a onClick = {this.onClose} href="#">PRODUCTS</a>
+          <a onClick = {this.onClose} href="#">PARTNERSHIP</a>
+          <a onClick = {this.onClose} href="#">COMMUNITY</a>
+          <a onClick = {this.onClose} href="#">CONTACT</a>
+        </div>
         <div className="header-buttons-container">
           <a href = "#">PRODUCTS</a>
           <a href = "#">PARTNERSHIP</a>

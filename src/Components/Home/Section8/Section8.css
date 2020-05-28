@@ -15,3 +15,42 @@
 .section8-text > span {
     font-family: 'WorkSinMedium';
 }
+
+@media screen and (max-width: 1024px) {
+    .section8-container {
+        background-image: url('../../../assets/meeting.png');
+        background-repeat: no-repeat;
+        background-size: 150%;
+        padding: 15% 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section8-container {
+        background-image: url('../../../assets/meeting.png');
+        background-repeat: no-repeat;
+        background-size: 150%;
+        padding: 15% 5%;
+        background-position: center;
+    }
+
+    .section8-text {
+        font-family: 'WorkSinLight';
+        color: #fff;
+        text-align: center;
+        font-size: 200%
+    }
+    
+    .section8-text > span {
+        font-family: 'WorkSinMedium';
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section8-text {
+        font-family: 'WorkSinLight';
+        color: #fff;
+        text-align: center;
+        font-size: 100%
+    }
+}
