@@ -10,8 +10,13 @@ import Section7 from './Section7/Section7';
 import Section8 from './Section8/Section8';
 import Section9 from './Section9/Section9';
 import Footer from './Footer/Footer';
+import {connect} from 'react-redux';
+import {getNav} from '../../action/actions';
 
-export default class Home extends Component {
+class Home extends Component {
+    componentWillMount = () => {
+        this.props.getNav('HOME')
+    }
     componentDidMount = () => {
         window.scrollTo(0,0);
       }
@@ -33,3 +38,5 @@ export default class Home extends Component {
         )
     }
 }
+
+export default connect(null,{getNav})(Home)
