@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Psection2.css";
+import ScrollAnimation from "react-animate-on-scroll";
 import arrow from '../../../assets/arrow.png';
 
 export default class Psection2 extends Component {
@@ -14,11 +15,11 @@ export default class Psection2 extends Component {
           directly usable in existing production lines.
         </p>
         <span>Get the same outcome,<br/>but not the same footprint.</span>
-        <div className = "section-role-link">
-            <a href = "#">FLEXOGRAPHIC <img src = {arrow} alt = "arrow-button"/></a>
-            <a href = "#">SILK SCREEN INK <img src = {arrow} alt = "arrow-button"/></a>
-            <a href = "#">WRITING INSTRUMENTS <img src = {arrow} alt = "arrow-button"/></a>
-        </div>
+        <ScrollAnimation animateIn = "fadeIn" className = "section-role-link">
+            <a href = "#Flexographic">FLEXOGRAPHIC <img src = {arrow} alt = "arrow-button"/></a>
+            <a href = "#SilkScreen">SILK SCREEN INK <img src = {arrow} alt = "arrow-button"/></a>
+            <a href = "#WritingInstruments">WRITING INSTRUMENTS <img src = {arrow} alt = "arrow-button"/></a>
+        </ScrollAnimation>
       </div>
     );
   }
