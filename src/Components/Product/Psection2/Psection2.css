@@ -1,0 +1,55 @@
+.p-section2-container {
+    padding: 5% 10%;
+    width: 80%;
+    background-image: url('../../../assets/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-section2-container > h1 {
+    font-family: 'JosefinBold';
+    font-size: 450%;
+    margin: 0;
+    padding-bottom: 4%;
+}
+
+.p-section2-container > p {
+    font-family: 'WorkSinLight';
+    font-size: 150%;
+    line-height: 150%;
+    margin: 0;
+    width: 80%;
+}
+
+.p-section2-container > span {
+    font-family: 'WorkSinMedium';
+    font-size: 150%;
+    padding-top: 3%;
+}
+
+.section-role-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.section-role-link > a {
+    display: flex;
+    align-items: center;
+    font-family: 'WorkSinLight';
+    color: #202020;
+    text-decoration: none;
+    font-size: 130%;
+    width: 30%;
+}
+
+.section-role-link > a > img {
+    height: 30px;
+    padding-left: 5%;
+}

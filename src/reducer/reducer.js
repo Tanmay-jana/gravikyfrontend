@@ -1,5 +1,6 @@
 const addState = {
     sideNav: false,
+    navid: "HOME"
 };
 
 const reducer = (state = addState, action) => {
@@ -15,6 +16,13 @@ const reducer = (state = addState, action) => {
         return {
             ...state,
             sideNav: action.payload
+        }
+    }
+
+    if(action.type === "NAV_ENTRY") {
+        return {
+            ...state,
+            navid: action.payload
         }
     }
     

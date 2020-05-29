@@ -43,7 +43,7 @@
     height: 100%;
 }
 
-.header-buttons-container > a{
+.header-buttons-container > .link-style{
     font-family: 'JosefinBold';
     text-decoration: none;
     color: #202020;
@@ -52,7 +52,11 @@
     align-items: center;
 }
 
-.header-buttons-container > a:hover {
+.header-buttons-container > .link-active {
+    box-shadow: inset 0 -3px 0 #095CE5;
+}
+
+.header-buttons-container > .link-style:hover {
     box-shadow: inset 0 -3px 0 #095CE5;
 }
 

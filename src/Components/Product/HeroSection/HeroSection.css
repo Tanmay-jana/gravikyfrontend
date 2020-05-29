@@ -1,0 +1,100 @@
+.hero-product-container {
+    padding: 13% 7%;
+    width: 86%;
+    background: #ffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-product-right-subcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-air-ink-img {
+    width: 50%;
+}
+
+.hero-product-right-subcontainer > h1 {
+    font-family: 'JosefinBold';
+    font-size: 450%;
+    margin: 0;
+}
+
+.hero-product-right-subcontainer > p {
+    font-family: 'WorkSinRegular';
+    font-size: 130%;
+}
+
+.img-sub-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.img-sub-container > img {
+    width: 67%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-product-container {
+        padding: 20% 7%;
+        width: 86%;
+        background: #ffff;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-air-ink-img {
+        width: 70%;
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .hero-product-right-subcontainer {
+        width: 70%;
+    }
+
+    .img-sub-container {
+        padding-top: 5%;
+    }
+
+    .img-sub-container > img {
+        width: 70%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-product-container {
+        padding: 35% 7% 25% 7%;
+        width: 86%;
+    }
+
+    .hero-product-right-subcontainer > h1 {
+        font-family: 'JosefinBold';
+        font-size: 250%;
+        margin: 0;
+        padding-top: 10%;
+    }
+    
+    .hero-product-right-subcontainer > p {
+        font-family: 'WorkSinRegular';
+        font-size: 100%;
+    }
+
+    .hero-product-right-subcontainer {
+        width: 100%;
+    }
+    
+}
