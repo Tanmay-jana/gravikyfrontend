@@ -11,6 +11,7 @@
     text-align: center;
     color: #202020;
     transition: 700ms;
+    width: 33%;
 }
 
 .section3-subcontainer > h4 {
@@ -60,6 +61,7 @@
         color: #202020;
         transition: 700ms;
         padding: 10%;
+        width: 80%;
     }
 
     .section3-subcontainer > h4 {

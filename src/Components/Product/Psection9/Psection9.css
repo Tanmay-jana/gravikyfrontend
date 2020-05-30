@@ -76,7 +76,7 @@
         display: block;
         height: 400px;
         width: auto;
-        padding-bottom: 10%;
+        padding: 10% 0 12% 0;
     }
 
     .psection9-right-section > h4 {
@@ -107,5 +107,9 @@
 
     .psection9-right-section > h4 {
         font-size: 90%;
+    }
+
+    .psection9-right-section > img {
+        padding: 10% 0 20% 0;
     }
 }

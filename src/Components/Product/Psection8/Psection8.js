@@ -46,7 +46,7 @@ export default class Psection8 extends Component {
           </div>
           <div className="psection8-block">
             <img src={people} alt="people" />
-            <h4>TREATMENT<br/>{"-"}</h4>
+            <h4>TREATMENT<br/><span>-</span></h4>
             <p>
               With our proprietary treatment method, effluents are converted
               into advanced materials

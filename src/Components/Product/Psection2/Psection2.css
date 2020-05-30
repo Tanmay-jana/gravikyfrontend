@@ -85,7 +85,7 @@
 @media screen and (max-width: 900px) {
 
     .p-section2-container {
-        padding: 5% 5%;
+        padding: 10% 5%;
         width: 90%;
         background-image: url('../../../assets/BG.jpg');
         background-repeat: no-repeat;
@@ -107,19 +107,33 @@
     .section-role-link > a {
         font-size: 200%;
         width: 65%;
-        margin-bottom: 10%;
+        margin-bottom: 12%;
         background: #fff;
-        border: 1px solid #d3cfcf;
+        /* border: 1px solid #d3cfcf; */
         border-radius: 50px;
         padding: 1%;
+        justify-content: center;
     }
 
     .section-role-link > a > img {
-        padding-left: 0%;
+        padding-left: 20px;
     }
 }
 
 @media screen and (max-width: 500px) {
+
+    .p-section2-container {
+        padding: 25% 5%;
+        width: 90%;
+        background-image: url('../../../assets/BG.jpg');
+        background-repeat: no-repeat;
+        background-size: 120%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position-y: 10rem;
+    }
     
     .p-section2-container > h1 {
         font-size: 250%;

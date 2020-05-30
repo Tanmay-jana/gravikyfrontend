@@ -48,3 +48,25 @@
         padding: 5%;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .product-logo-img {
+        /* height: 30px;
+        width: auto; */
+        display: block;
+        filter: grayscale(100%);
+        transition: 200ms;
+        padding: 7%;
+        width: 30%;
+        height: auto;
+    }
+
+    .custom-dell-size {
+        width: 28%;
+    }
+
+    .custom-master-size {
+        width: 17%;
+    }
+}

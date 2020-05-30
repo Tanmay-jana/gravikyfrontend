@@ -14,8 +14,8 @@ export default class Psection4 extends Component {
                 <ScrollAnimation animateIn="fadeIn" className = "logo-containers">
                     <img className = "product-logo-img" src = {heineken} alt = "heineken" />
                     <img className = "product-logo-img" src = {OnePlus} alt = "OnePlus" />
-                    <img className = "product-logo-img" src = {mastercard} alt = "mastercard" />
-                    <img className = "product-logo-img" src = {dell} alt = "dell" />
+                    <img className = "product-logo-img custom-master-size" src = {mastercard} alt = "mastercard" />
+                    <img className = "product-logo-img custom-dell-size" src = {dell} alt = "dell" />
                 </ScrollAnimation>
             </div>
         )

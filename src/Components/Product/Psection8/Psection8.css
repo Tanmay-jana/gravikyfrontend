@@ -54,6 +54,10 @@
     line-height: 160%;
 }
 
+.psection8-block > h4 >span {
+    color: transparent;
+}
+
 .psection8-block>img {
     height: 100px;
 }
@@ -61,7 +65,7 @@
 @media screen and (max-width: 1024px) {
 
     .psection8-container {
-        padding: 10% 5% 10% 5%;
+        padding: 10% 5% 5% 5%;
         width: 90%;
         background: rgba(251, 251, 251, 0.75);
         text-align: center;
@@ -69,6 +73,7 @@
 
     .psection8-block {
         width: 40%;
+        height: 500px;
     }
 
     .psection8-block > h4 {
@@ -83,6 +88,13 @@
 }
 
 @media screen and (max-width: 900px) {
+    .psection8-container {
+        padding: 15% 4% 5% 4%;
+        width: 92%;
+        background: rgba(251, 251, 251, 0.75);
+        text-align: center;
+    }
+
     .psection8-container > h1 {
         font-size: 400%;
     }
@@ -99,6 +111,20 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .psection8-container {
+        padding: 25% 4% 10% 4%;
+        width: 92%;
+        background: rgba(251, 251, 251, 0.75);
+        text-align: center;
+    }
+
+    .product-feature-section8 {
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+
     .psection8-container > h1 {
         font-size: 250%;
     }
@@ -108,10 +134,11 @@
     }
 
     .psection8-block {
-        width: 100%;
+        width: 70%;
         align-items: center;
-        padding-bottom: 5%;
+        padding-bottom: 15%;
         height: auto;
+        padding-top: 15%;
     }
 
     .psection8-block > h4 {

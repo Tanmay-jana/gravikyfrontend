@@ -90,6 +90,10 @@
     display: none;
 }
 
+.no-height  {
+    display: none;
+}
+
 
 @media screen and (max-width: 1024px) {
     .nav-icon {
