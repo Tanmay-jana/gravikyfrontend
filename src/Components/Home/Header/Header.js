@@ -53,7 +53,7 @@ class Header extends Component {
           GRAVIKY LABS
         </a>
         <i onClick = {this.isNav} className={this.state.isNav === false ?"fa fa-bars nav-icon":"fa fa-close nav-icon"}></i>
-        <div className={this.state.isNav === true ?"myLinks" : "invisible"}>
+        <div className={this.state.isNav === true ?"my-links" : "no-height"}>
           <a onClick = {this.onClose} href="/product">PRODUCTS</a>
           <a onClick = {this.onClose} href="#">PARTNERSHIP</a>
           <a onClick = {this.onClose} href="#">COMMUNITY</a>
