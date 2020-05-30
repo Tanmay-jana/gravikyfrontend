@@ -14,12 +14,10 @@ import {connect} from 'react-redux';
 import {getNav} from '../../action/actions';
 
 class Product extends Component {
-    componentWillMount = () => {
-        this.props.getNav("PRODUCTS")
-    }
 
     componentDidMount = () => {
         window.scrollTo(0,0);
+        this.props.getNav("PRODUCTS")
       }
     render() {
         return (

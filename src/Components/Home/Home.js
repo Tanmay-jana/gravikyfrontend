@@ -14,11 +14,9 @@ import {connect} from 'react-redux';
 import {getNav} from '../../action/actions';
 
 class Home extends Component {
-    componentWillMount = () => {
-        this.props.getNav('HOME')
-    }
     componentDidMount = () => {
         window.scrollTo(0,0);
+        this.props.getNav('HOME')
       }
     render() {
         return (
