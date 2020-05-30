@@ -13,7 +13,6 @@ export const closeSideNav = () => dispatch => {
 }
 
 export const getNav = (id) => dispatch => {
-    console.log(id)
     dispatch({
       type: "NAV_ENTRY",
       payload: id
