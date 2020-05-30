@@ -88,7 +88,8 @@
         background-position: 22ex; 
         background-blend-mode: darken;
         align-items: center;
-        padding: 20% 7% 20% 7%;
+        padding: 30% 7% 30% 7%;
+        height: 80vh;
     }
 
     .psection6-right-container > h1 {

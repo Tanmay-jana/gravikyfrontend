@@ -24,7 +24,7 @@ export default class Psection3 extends Component {
           </div>
           <div className="product-feature-block">
             <img src={firewall} alt="firewall" />
-            <h4>Compliance</h4>
+            <h4>Compliance<br/> {" "}</h4>
             <p>As safe as any other ink on the market</p>
           </div>
           <div className="product-feature-block">

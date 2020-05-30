@@ -33,11 +33,12 @@
 }
 
 .feature-block {
-    width: 26%;
+    width: 29%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 5%;
+    height: 225px;
 }
 
 .feature-block > h4 {
