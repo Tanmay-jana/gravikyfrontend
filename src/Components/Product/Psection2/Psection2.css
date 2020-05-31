@@ -85,7 +85,7 @@
 @media screen and (max-width: 900px) {
 
     .p-section2-container {
-        padding: 10% 5%;
+        padding: 15% 5%;
         width: 90%;
         background-image: url('../../../assets/BG.jpg');
         background-repeat: no-repeat;
@@ -123,7 +123,7 @@
 @media screen and (max-width: 500px) {
 
     .p-section2-container {
-        padding: 25% 5%;
+        padding: 20% 5%;
         width: 90%;
         background-image: url('../../../assets/BG.jpg');
         background-repeat: no-repeat;

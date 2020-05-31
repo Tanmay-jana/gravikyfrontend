@@ -47,13 +47,20 @@
         transition: 200ms;
         padding: 5%;
     }
+
+    .psection-container {
+        padding: 15% 7%;
+    }
 }
 
 @media screen and (max-width: 500px) {
 
+    .psection-container {
+        padding: 20% 5%;
+        width: 90%;
+    }
+
     .product-logo-img {
-        /* height: 30px;
-        width: auto; */
         display: block;
         filter: grayscale(100%);
         transition: 200ms;

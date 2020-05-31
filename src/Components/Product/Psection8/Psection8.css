@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 900px) {
     .psection8-container {
-        padding: 15% 4% 5% 4%;
+        padding: 15% 4% 0% 4%;
         width: 92%;
         background: rgba(251, 251, 251, 0.75);
         text-align: center;
@@ -113,7 +113,7 @@
 @media screen and (max-width: 500px) {
 
     .psection8-container {
-        padding: 25% 4% 10% 4%;
+        padding: 20% 4% 10% 4%;
         width: 92%;
         background: rgba(251, 251, 251, 0.75);
         text-align: center;

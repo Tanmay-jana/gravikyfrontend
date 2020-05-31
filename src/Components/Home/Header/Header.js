@@ -54,7 +54,7 @@ class Header extends Component {
         </a>
         <i onClick = {this.isNav} className={this.state.isNav === false ?"fa fa-bars nav-icon":"fa fa-close nav-icon"}></i>
         <div className={this.state.isNav === true ?"my-links" : "no-height"}>
-          <a onClick = {this.onClose} href="/product">PRODUCTS</a>
+          <Link onClick = {this.onClose} to="/product">PRODUCTS</Link>
           <a onClick = {this.onClose} href="#">PARTNERSHIP</a>
           <a onClick = {this.onClose} href="#">COMMUNITY</a>
           <a onClick = {this.onClose} href="#">CONTACT</a>

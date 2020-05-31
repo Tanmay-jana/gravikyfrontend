@@ -20,6 +20,10 @@
     margin: 0;
 }
 
+.section3-subcontainer > h4 > span {
+    font-family: 'JosefinBold';
+}
+
 .section3-subcontainer > p {
     font-family: 'WorkSinLight';
     font-size: 130%;
@@ -31,6 +35,12 @@
 
 .transparent {
     color: transparent;
+}
+
+@media screen and (max-width: 1026px) {
+    .section3-subcontainer >  h4{
+        font-size: 500%;
+    }
 }
 
 @media screen and (max-width: 900px) {

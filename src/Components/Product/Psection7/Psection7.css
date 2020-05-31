@@ -75,7 +75,7 @@
 @media screen and (max-width: 500px) {
 
     .psrction7-container {
-        padding: 25% 5% 25% 5%;
+        padding: 20% 5%;
         width: 90%;
         flex-direction: column;
     }

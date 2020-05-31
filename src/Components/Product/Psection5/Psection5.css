@@ -51,7 +51,7 @@
 @media screen and (max-width: 900px) {
     .psection5-container {
         flex-direction: column;
-        padding: 10% 7%;
+        padding: 15% 7%;
     }
 
     .psection5-right-container  {
