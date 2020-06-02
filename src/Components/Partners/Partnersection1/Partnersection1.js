@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "./Partnersection1.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default class Partnersection1 extends Component {
   render() {
     return (
       <div className="partnersection1-container">
-        <div className="partnersection1-top-container">
+        <ScrollAnimation animateIn = "fadeIn" className="partnersection1-top-container">
           <h1>Our Philosophy</h1>
           <p>
             Air pollution kills an estimated 4 million people worldwide and
@@ -13,8 +14,8 @@ export default class Partnersection1 extends Component {
             work on technology that can make a real impact - that can stop
             carbon emissions from entering our air, our streams, and our lungs.{" "}
           </p>
-        </div>
-        <div className = "partnersection1-bottom-container">
+        </ScrollAnimation>
+        <ScrollAnimation animateIn = "fadeIn" className = "partnersection1-bottom-container">
             <div>
                 <h3>AVOID</h3>
                 <p>Avoid fossil fuels wherever possible</p>
@@ -27,7 +28,7 @@ export default class Partnersection1 extends Component {
                 <h3>REPLACE</h3>
                 <p>Replace conventional production practices</p>
             </div>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }

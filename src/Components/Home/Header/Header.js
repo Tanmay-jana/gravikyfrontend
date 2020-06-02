@@ -153,11 +153,11 @@ class Header extends Component {
           </Link>
           <div className="social-logo-container">
             <i
-              onClick={() => window.open("https://facebook.com", "_blank")}
+              onClick={() => window.open("https://www.facebook.com/graviky/", "_blank")}
               className="fa fa-facebook"
             ></i>
-            <i className="fa fa-twitter"></i>
-            <i className="fa fa-instagram"></i>
+            <i onClick={() => window.open("https://twitter.com/gravikylabs", "_blank")} className="fa fa-twitter"></i>
+            <i onClick={() => window.open("https://www.instagram.com/anirudder/", "_blank")} className="fa fa-instagram"></i>
           </div>
           <img
             className={
