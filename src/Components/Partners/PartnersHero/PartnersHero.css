@@ -1,0 +1,102 @@
+.partners-hero-container {
+    width: 100%;
+    position: relative;
+}
+
+#background-video {
+    width: 100%;
+}
+
+.hero-section-text {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #ffff;
+}
+
+.hero-section-text>h1 {
+    font-size: 450%;
+    font-family: "JosefinBold";
+    text-align: center;
+}
+
+.hero-section-text>p {
+    text-align: center;
+    margin: 0;
+    font-family: 'WorkSinRegular';
+    line-height: 150%;
+    font-size: 130%;
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 900px) {
+    .hero-section-text>h1 {
+        font-size: 400%;
+    }
+
+    .hero-section-text>p {
+        font-size: 150%;
+    }
+
+    .partners-hero-container {
+        width: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    #background-video {
+        position: fixed;
+        width: auto;
+        right: 0;
+        top: 0;
+        z-index: -2;
+        min-width: 100%;
+        min-height: 100%;
+        opacity: 1;
+    }
+
+    .hero-section-text {
+        position: absolute;
+        top: 45%
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .partners-hero-container {
+        width: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .hero-section-text {
+        top: 50%;
+    }
+
+    .hero-section-text>h1 {
+        font-size: 250%;
+    }
+
+    .hero-section-text>p {
+        font-size: 100%;
+    }
+
+    #background-video {
+        position: fixed;
+        width: auto;
+        right: 0;
+        top: 0;
+        z-index: -2;
+        min-width: 100%;
+        min-height: 100%;
+        opacity: 1;
+    }
+}

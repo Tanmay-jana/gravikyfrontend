@@ -8,7 +8,24 @@
     justify-content: space-between;
     transition: 300ms;
     height: 100px;
-    background: transparent;
+    
+}
+
+.white-header-container a {
+    color: #ffff;
+}
+
+.white-header-container {
+    position: fixed;
+    width: 86%;
+    display: flex;
+    padding: 0% 7%;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-between;
+    transition: 300ms;
+    height: 100px;
+    z-index: 10;
 }
 
 .main-header-container-1 {
@@ -25,7 +42,7 @@
     -webkit-box-shadow: 0 8px 6px -6px #DDDDDD;
     -moz-box-shadow: 0 8px 6px -6px #DDDDDD;
     box-shadow: 0 2px 0px 0px #DDDDDD;
-    height: 95px;
+    height: 80px;
 }
 
 .logo-text {
@@ -39,11 +56,11 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'JosefinBold';
-    width: 60%;
+    width: 70%;
     height: 100%;
 }
 
-.header-buttons-container > .link-style{
+.link-style {
     font-family: 'JosefinBold';
     text-decoration: none;
     color: #202020;
@@ -52,11 +69,11 @@
     align-items: center;
 }
 
-.header-buttons-container > .link-active {
+.link-active {
     box-shadow: inset 0 -3px 0 #095CE5;
 }
 
-.header-buttons-container > .link-style:hover {
+.link-style:hover {
     box-shadow: inset 0 -3px 0 #095CE5;
 }
 
@@ -64,6 +81,11 @@
     display: flex;
     justify-content: space-between;
     width: 10%;
+}
+
+.social-logo-container>.fa:hover {
+    text-shadow: 5px 5px #095CE5;
+    cursor: pointer;
 }
 
 .times-img {
@@ -90,16 +112,52 @@
     display: none;
 }
 
-.no-height  {
+.no-height {
     display: none;
 }
 
+.dropdown-product {
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 160px;
+    z-index: 100;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 15px 16px;
+    display: block;
+    text-align: left;
+    font-family: 'JosefinBold';
+    text-decoration: none;
+    color: #202020;
+  }
+
+  .dropdown-content a:hover{
+    background-color: rgb(243, 243, 243);
+  }
+
+.dropdown-product:hover .dropdown-content {
+    display: block;
+  }
 
 @media screen and (max-width: 1024px) {
     .nav-icon {
         display: block;
-        color:#202020;
+        color: #202020;
         font-size: 150%;
+    }
+
+    .white-header-container > .nav-icon {
+        color: #ffff;
     }
 
     .logo-text {
@@ -109,7 +167,9 @@
     .header-buttons-container {
         display: none;
     }
-    
+
+
+
     .main-header-container {
         position: fixed;
         width: 86%;
@@ -136,6 +196,10 @@
         background: #fff;
     }
 
+    .white-header-container {
+        height: 70px;
+    }
+
     .my-links {
         display: block;
         overflow: hidden;
@@ -146,7 +210,7 @@
         top: 70px;
         left: 0;
         transition: 300ms;
-        height: 35%;
+        height: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -168,7 +232,7 @@
         justify-content: space-around;
     }
 
-    .no-height > a{
+    .no-height>a {
         transition: 300ms;
         display: none;
     }
@@ -227,7 +291,7 @@
 
     .nav-icon {
         display: block;
-        color:#fff;
+        color: #fff;
         font-size: 250%;
     }
 
@@ -240,10 +304,12 @@
         z-index: 15;
         top: 70px;
         left: 0;
-        padding-bottom: 3%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
+        overflow: scroll;
+        height: 50px;
+        align-items: center;
     }
 
     .no-height {
@@ -253,11 +319,11 @@
 
     .my-links a {
         color: #fff;
-        padding: 25px 5%;
+        padding: 0px;
         text-decoration: none;
         display: block;
         font-family: 'JosefinBold';
-        font-size: 130%;
+        font-size: 90%;
         letter-spacing: 0.3mm;
     }
 
@@ -282,15 +348,16 @@
     .logo-text {
         font-size: 100%;
     }
-    
+
     .nav-icon {
         display: block;
-        color:#fff;
+        color: #fff;
         font-size: 150%;
     }
 
     .my-links a {
         font-size: 100%;
+        padding-left: 5%;
     }
 
     .my-links {
@@ -302,10 +369,12 @@
         z-index: 15;
         top: 50px;
         left: 0;
-        height: 40%;
+        height: 45%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        overflow: scroll;
+        align-items: flex-start;
     }
 
     .no-height {

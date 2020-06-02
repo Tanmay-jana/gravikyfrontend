@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import  "./Product.css"
 import Header from '../Home/Header/Header';
 import Footer from '../Home/Footer/Footer';
 import HeroSection from './HeroSection/HeroSection';
@@ -9,7 +10,9 @@ import Psection5 from './Psection5/Psection5';
 import Psection6 from './Psection6/Psection6';
 import Psection7 from './Psection7/Psection7';
 import Psection8 from './Psection8/Psection8';
-import Psection9 from './Psection9/Psection9';
+// import Psection9 from './Psection9/Psection9';
+import Section9 from '../Home/Section9/Section9';
+import PsectionLogos from './PsectionLogos/PsectionLogos';
 import {connect} from 'react-redux';
 import {getNav} from '../../action/actions';
 
@@ -28,10 +31,11 @@ class Product extends Component {
                <Psection3/>
                <Psection4/>
                <Psection5/>
+               <PsectionLogos/>
                <Psection6/>
                <Psection7/>
                <Psection8/>
-               <Psection9/>
+               <Section9/>
                <Footer/>
             </div>
         )

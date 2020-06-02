@@ -14,12 +14,20 @@
     letter-spacing: 0.5mm
 }
 
+.logo-containers {
+    width: 90%;
+}
+
 .product-logo-img {
     height: 50px;
     width: auto;
     display: block;
     filter: grayscale(100%);
     transition: 200ms;
+}
+
+.custom-dell-size {
+    height: 40px;
 }
 
 .product-logo-img:hover {
@@ -48,6 +56,9 @@
         padding: 5%;
     }
 
+    .logo-containers {
+        width: 100%;
+    }
     .psection-container {
         padding: 15% 7%;
     }

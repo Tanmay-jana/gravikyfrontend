@@ -75,9 +75,6 @@
         background-position: center; 
     }
 
-    .landing-page-container > h1 {
-        font-size: 300%;
-    }
 
     .landing-button-container {
         display: flex;
