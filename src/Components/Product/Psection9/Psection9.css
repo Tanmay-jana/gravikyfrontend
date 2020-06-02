@@ -2,12 +2,13 @@
     padding: 10% 7% 10% 7%;
     width: 86%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    background: #ffff;
 }
 
 .psection9-container > img {
-    width: 35%;
+    width: 45%;
 }
 
 .psection9-right-section {
@@ -22,7 +23,7 @@
     font-family: 'JosefinBold';
     font-size: 450%;
     margin: 0;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 .psection9-right-section > p {
@@ -31,17 +32,18 @@
     line-height: 150%;
     margin: 0;
     width: 80%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 .psection9-right-section > h4 {
-    font-family: 'WorkSinRegular';
+    font-family: 'WorkSinLight';
     font-size: 115%;
-    line-height: 140%;
+    line-height: 190%;
     margin: 0;
-    width: 90%;
+    width: 100%;
     padding-bottom: 20%;
     color: #202020;
+    font-weight: normal;
 }
 
 .rnd-button {

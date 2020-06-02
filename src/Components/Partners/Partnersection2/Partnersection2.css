@@ -1,11 +1,11 @@
 .partnersection2-container {
     padding: 7% 0;
     width: 100%;
-    background: #FCFCFC;
+    background: #ffff;
 }
 
 .partnersection2-subcontainer {
-    padding-left: 5%;
+    padding-left: 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;

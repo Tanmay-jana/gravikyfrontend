@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: #fff;
 }
 
 .section9-container > h1 {

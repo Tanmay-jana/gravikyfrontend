@@ -10,8 +10,8 @@ export default class Psection9 extends Component {
       <div className="psection9-container">
         <img src={circle} alt="circle" />
         <ScrollAnimation className="psection9-right-section" animateIn="fadeIn">
-          <h1>Decarbonise your supply chain</h1>
-          <p>We don’t stop at ink</p>
+          <h1>We don’t stop<br/> at ink.</h1>
+          <p>Decarbonise your supply chain.</p>
           <img src={circle} alt="circle" />
           <h4>
             Our R&D team is working with some of the biggest players to create
@@ -19,7 +19,9 @@ export default class Psection9 extends Component {
             using upcycled carbon emissions. Reach out to us to develop new
             materials and decarbonise your supply chain.
           </h4>
-          <a className = "rnd-button" href = "#">Join R&D</a>
+          <a className="rnd-button" href="#">
+            Join R&D
+          </a>
         </ScrollAnimation>
       </div>
     );

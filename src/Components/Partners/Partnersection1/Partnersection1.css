@@ -1,7 +1,7 @@
 .partnersection1-container {
     background: #FCFCFC;
-    padding: 5%;
-    width: 90%;
+    padding: 7%;
+    width: 86%;
 }
 
 .partnersection1-top-container {
@@ -78,6 +78,7 @@
 
     .partnersection1-container {
         padding: 20% 5%;
+        width: 90%;
     }
     .partnersection1-top-container {
         flex-direction: unset;

@@ -10,9 +10,11 @@ const fadeProperties = {
   infinite: true,
   indicators: true,
   pauseOnHover: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`fade transition from ${oldIndex} to ${newIndex}`);
-  }
+  arrows: true,
+//   scale: 0.4,
+//   onChange: (oldIndex, newIndex) => {
+//     console.log(`fade transition from ${oldIndex} to ${newIndex}`);
+//   }
 };
 
 export default class Partnersection2 extends Component {
