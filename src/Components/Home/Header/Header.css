@@ -269,6 +269,20 @@
         height: 70px;
     }
 
+    .white-header-container {
+        position: fixed;
+        width: 90%;
+        display: flex;
+        padding: 0% 5%;
+        align-items: center;
+        color: #fff;
+        justify-content: space-between;
+        transition: 300ms;
+        height: auto;
+        background: transparent;
+        height: 70px;
+    }
+
     .main-header-container-1 {
         position: fixed;
         width: 90%;
@@ -336,6 +350,11 @@
 
 @media screen and (max-width: 500px) {
     .main-header-container {
+        padding: 0 5%;
+        height: 50px;
+    }
+
+    .white-header-container {
         padding: 0 5%;
         height: 50px;
     }

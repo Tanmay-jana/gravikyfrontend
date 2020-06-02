@@ -22,7 +22,7 @@ class Header extends Component {
 
   componentDidMount = () => {
     window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 10;
+      const isTop = window.scrollY < 50;
       if (isTop !== true) {
         this.setState({ scrolled: true });
       } else {
@@ -33,7 +33,7 @@ class Header extends Component {
 
   componentWillUnmount() {
     window.removeEventListener("scroll", () => {
-      const isTop = window.scrollY < 10;
+      const isTop = window.scrollY < 50;
       if (isTop !== true) {
         this.setState({ scrolled: true });
       } else {
@@ -125,7 +125,7 @@ class Header extends Component {
                 : "link-style link-active"
             }
             onClick={() => this.linkClicked("PARTNERSHIP")}
-            to="/partners"
+            to="/partners/"
           >
             PARTNERSHIP
           </Link>

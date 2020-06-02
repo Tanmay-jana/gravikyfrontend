@@ -31,9 +31,14 @@
     font-size: 130%;
 }
 
-@media screen and (max-width: 1024px) {}
+
 
 @media screen and (max-width: 900px) {
+    .partners-hero-container {
+        width: 100%;
+        position: relative;
+    }
+    
     .hero-section-text>h1 {
         font-size: 400%;
     }
@@ -47,7 +52,7 @@
         position: relative;
         background-position: center;
         background-size: cover;
-        height: 80vh;
+        height: 100vh;
     }
 
     #background-video {
@@ -74,11 +79,11 @@
         position: relative;
         background-position: center;
         background-size: cover;
-        height: 80vh;
+        height: 100vh;
     }
 
     .hero-section-text {
-        top: 50%;
+        top: 40%;
     }
 
     .hero-section-text>h1 {
@@ -87,6 +92,7 @@
 
     .hero-section-text>p {
         font-size: 100%;
+        width: 70%;
     }
 
     #background-video {

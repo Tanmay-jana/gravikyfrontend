@@ -4,10 +4,6 @@ import background from "../../../assets/Black-video.mp4";
 import background_1 from "../../../assets/Black-video.ogg";
 
 export default class PartnersHero extends Component {
-  componentDidMount = () => {
-    window.scrollTo(0,0);
-    console.log(window.scrollY)
-  }
   render() {
     return (
       <div className="partners-hero-container">
