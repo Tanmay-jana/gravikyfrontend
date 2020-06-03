@@ -4,6 +4,9 @@ import ReactPlayer from 'react-player'
 var url = "https://www.youtube.com/watch?v=Ug5k1j5CfM8"
 
 export default class Partnersection6 extends Component {
+  state = {
+    innerWidth: window.innerWidth
+  }
   render() {
     return (
       <div className="partnersection6-container">
@@ -16,7 +19,7 @@ export default class Partnersection6 extends Component {
             </p>
           </div>
           <div className = "video-section">
-          <ReactPlayer url={url} controls width = '100%' height = '300px'/>
+          <ReactPlayer url={url} light  controls width = '100%' height = {this.state.innerWidth >= 500 ?'300px': '200px'}/>
           </div>
         </div>
       </div>

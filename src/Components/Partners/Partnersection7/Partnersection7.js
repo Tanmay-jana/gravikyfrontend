@@ -4,6 +4,9 @@ import ReactPlayer from "react-player";
 var url = "https://www.youtube.com/watch?v=cwy549sOYb8&feature=emb_logo"
 
 export default class Partnersection7 extends Component {
+  state = {
+    innerWidth: window.innerWidth
+  }
   render() {
     return (
       <div className="partnersection7-sontainer">
@@ -13,7 +16,8 @@ export default class Partnersection7 extends Component {
               url= {url}
               controls
               width="100%"
-              height="300px"
+              height={this.state.innerWidth >= 500 ?'300px': '200px'}
+              light
             />
           </div>
           <div className="partner-right-section">
