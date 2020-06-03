@@ -16,7 +16,7 @@ export default class Partnersection7 extends Component {
               url= {url}
               controls
               width="100%"
-              height={this.state.innerWidth >= 500 ?'300px': '200px'}
+              height={this.state.innerWidth >= 500 ?'300px': '200px'} playing
               light
             />
           </div>

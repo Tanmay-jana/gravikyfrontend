@@ -19,7 +19,7 @@ export default class Partnersection6 extends Component {
             </p>
           </div>
           <div className = "video-section">
-          <ReactPlayer url={url} light  controls width = '100%' height = {this.state.innerWidth >= 500 ?'300px': '200px'}/>
+          <ReactPlayer url={url} light  controls playing width = '100%' height = {this.state.innerWidth >= 500 ?'300px': '200px'}/>
           </div>
         </div>
       </div>

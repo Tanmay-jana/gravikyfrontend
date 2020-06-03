@@ -106,4 +106,8 @@
     .partnersection8-text-block a > img {
         padding: 0;
     }
+
+    .fslightbox-container {
+        /* background: #202020; */
+    }
 }
