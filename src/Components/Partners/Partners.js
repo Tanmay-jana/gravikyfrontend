@@ -6,6 +6,9 @@ import Partnersection1 from './Partnersection1/Partnersection1';
 import Partnersection2 from './Partnersection2/Partnersection2';
 import Partnersection3 from './Partnersection3/Partnersection3';
 import Partnersection5 from './Partnersection5/Partnersection5';
+import Partnersection6 from './Partnersection6/Partnersection6';
+import Partnersection7 from './Partnersection7/Partnersection7';
+import Partnersection8 from './Partnersection8/Partnersection8';
 import Section9 from '../Home/Section9/Section9';
 import Psection9 from '../Product/Psection9/Psection9';
 import {connect} from 'react-redux';
@@ -27,6 +30,9 @@ class Partners extends Component {
                 <Partnersection3/>
                 <Psection9/>
                 <Partnersection5/>
+                <Partnersection6/>
+                <Partnersection7/>
+                <Partnersection8/>
                 <Section9/>
                 <Footer/>
             </div>

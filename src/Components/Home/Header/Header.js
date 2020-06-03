@@ -21,26 +21,21 @@ class Header extends Component {
   };
 
   componentDidMount = () => {
-    window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 50;
-      if (isTop !== true) {
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
+    window.addEventListener("scroll", this.isScroll);
   };
 
   componentWillUnmount() {
-    window.removeEventListener("scroll", () => {
-      const isTop = window.scrollY < 50;
-      if (isTop !== true) {
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
+    window.removeEventListener("scroll", this.isScroll);
   }
+
+  isScroll = () => {
+    const isTop = window.scrollY < 50;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
+  };
 
   linkClicked = value => {
     this.props.getNav(value);
@@ -52,7 +47,9 @@ class Header extends Component {
       <div
         className={
           this.state.scrolled === false
-            ? this.props.navid === "PARTNERSHIP" ? "white-header-container" : "main-header-container"
+            ? this.props.navid === "PARTNERSHIP"
+              ? "white-header-container"
+              : "main-header-container"
             : "main-header-container-1"
         }
       >
@@ -100,7 +97,7 @@ class Header extends Component {
           >
             HOME
           </Link>
-          <div className = "dropdown-product">
+          <div className="dropdown-product">
             <Link
               className={
                 this.props.navid !== "PRODUCTS"
@@ -153,11 +150,23 @@ class Header extends Component {
           </Link>
           <div className="social-logo-container">
             <i
-              onClick={() => window.open("https://www.facebook.com/graviky/", "_blank")}
+              onClick={() =>
+                window.open("https://www.facebook.com/graviky/", "_blank")
+              }
               className="fa fa-facebook"
             ></i>
-            <i onClick={() => window.open("https://twitter.com/gravikylabs", "_blank")} className="fa fa-twitter"></i>
-            <i onClick={() => window.open("https://www.instagram.com/anirudder/", "_blank")} className="fa fa-instagram"></i>
+            <i
+              onClick={() =>
+                window.open("https://twitter.com/gravikylabs", "_blank")
+              }
+              className="fa fa-twitter"
+            ></i>
+            <i
+              onClick={() =>
+                window.open("https://www.instagram.com/anirudder/", "_blank")
+              }
+              className="fa fa-instagram"
+            ></i>
           </div>
           <img
             className={
