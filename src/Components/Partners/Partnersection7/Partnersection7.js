@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Partnersection7.css";
 import ReactPlayer from "react-player";
+var url = "https://www.youtube.com/watch?v=cwy549sOYb8&feature=emb_logo"
 
 export default class Partnersection7 extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class Partnersection7 extends Component {
         <div className="sacestudies-sub-container">
           <div className="video-section">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=MqOplj2HSdE"
+              url= {url}
               controls
               width="100%"
               height="300px"
