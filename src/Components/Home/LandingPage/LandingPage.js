@@ -6,14 +6,18 @@ export default class LandingPage extends Component {
   render() {
     return (
       <div className="landing-page-container">
-        <h1>Boost your sustainability without changing your process</h1>
+        <h1>Decarbonize your production</h1>
         <p>
-          We upcycle air pollution into sustainable plug-and-play industrial
-          materials like inks and coatings
+          We upcycle air pollution into sustainable inks, paints, coatings,
+          plastics and construction material
         </p>
-        <div className = "landing-button-container">
-            <a className = "blue-button" href = "#">Partner with us</a>
-            <a className = "white-button" href = "#">Learn more</a>
+        <div className="landing-button-container">
+          <a className="blue-button" href="#">
+            Partner with us
+          </a>
+          <a className="white-button" href="#">
+            Learn more
+          </a>
         </div>
       </div>
     );

@@ -6,7 +6,7 @@ import recycle2 from "../../../assets/RectangleCopy6.png";
 import recycle3 from "../../../assets/RectangleCopy7.png";
 import recycle4 from "../../../assets/RectangleCopy8.png";
 import ScrollAnimation from "react-animate-on-scroll";
-// import Lightbox from "fslightbox-react";
+import Lightbox from "fslightbox-react";
 import "./Partnersection8.css";
 
 export default class Partnersection8 extends Component {
@@ -25,7 +25,7 @@ export default class Partnersection8 extends Component {
   render() {
     return (
       <div className="partnersection8-container">
-          {/* <Lightbox
+          <Lightbox
           toggler={this.state.isVisible}
           slide={this.state.slide}
           sources={[
@@ -34,7 +34,7 @@ export default class Partnersection8 extends Component {
             require('../../../assets/RectangleCopy5.png'),
             require('../../../assets/RectangleCopy7.png'),
           ]}
-        /> */}
+        />
         <div className="partnersection8-text-block">
           <h1>How artists use our products</h1>
           <ScrollAnimation

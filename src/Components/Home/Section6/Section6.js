@@ -14,8 +14,8 @@ export default class Section6 extends Component {
       <div className="section6-container">
         <h1>Why Partner with Graviky?</h1>
         <p>
-          Conceptualized at MIT, AIR-INK™ is in adoption pilots by finance,
-          apparel, and packaging companies
+          Conceptualized at MIT, AIR-INK<sup>®</sup> is in adoption pilots by
+          finance, apparel, and packaging companies
         </p>
         <ScrollAnimation className="feature-section" animateIn="fadeIn">
           <div className="feature-block">
@@ -26,12 +26,14 @@ export default class Section6 extends Component {
           <div className="feature-block">
             <img src={firewall} alt="firewall" />
             <h4>Compliance</h4>
-            <p>As safe as any other ink on the market</p>
+            <p>
+              ROHS and ASTM certified. As safe as any other ink on the market
+            </p>
           </div>
           <div className="feature-block">
             <img src={trolley} alt="trolley" />
-            <h4>Efficient</h4>
-            <p>1 litre produces 0.2-0.3kg of ink</p>
+            <h4>Trusted</h4>
+            <p>By more than 10,000 individuals and entities</p>
           </div>
           <div className="feature-block">
             <img src={chart} alt="chart" />

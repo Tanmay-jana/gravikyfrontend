@@ -13,10 +13,10 @@ export default class Section4 extends Component {
           className="section4-right-subcontainer"
           animateIn="fadeIn"
         >
-          <h1>AIR-INK</h1>
+          <h1>AIR-INK<sup>®</sup></h1>
           <h3>The perfect substitute</h3>
           <p>
-            Replace the inks on your products with <span>AIR-INK™,</span> which is made from
+            Replace the inks on your products with <span>AIR-INK<sup>®</sup>,</span> which is made from
             captured carbon emissions. It is safer, cheaper, more versatile, and
             fits right into your production line.
           </p>
