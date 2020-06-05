@@ -11,7 +11,7 @@
     font-family: 'WorkSinMedium';
     margin: 0;
     margin-bottom: 5%;
-    letter-spacing: 0.5mm
+    letter-spacing: 0.5mm;
 }
 
 @media screen and (max-width: 900px) {
