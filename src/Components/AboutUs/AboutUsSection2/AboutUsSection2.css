@@ -57,7 +57,7 @@
 @media screen and (max-width: 500px) {
     .aboutus-section2-container {
         padding: 10% 5%;
-        widows: 90%;
+        width: 90%;
     }
 
     .insta-link {
