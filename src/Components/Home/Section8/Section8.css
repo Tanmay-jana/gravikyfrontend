@@ -1,8 +1,9 @@
 .section8-container {
-    background-image: url('../../../assets/meeting.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-image: url('../../../assets/meeting.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
     padding: 15% 10%;
+    background: #202020;
 }
 
 .section8-text {
@@ -18,20 +19,19 @@
 
 @media screen and (max-width: 1024px) {
     .section8-container {
-        background-image: url('../../../assets/meeting.png');
+        /* background-image: url('../../../assets/meeting.png');
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 150%; */
         padding: 15% 5%;
     }
 }
 
 @media screen and (max-width: 900px) {
     .section8-container {
-        background-image: url('../../../assets/meeting.png');
+        /* background-image: url('../../../assets/meeting.png');
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 150%; */
         padding: 15% 5%;
-        background-position: center;
     }
 
     .section8-text {

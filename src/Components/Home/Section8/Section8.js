@@ -7,7 +7,7 @@ export default class Section8 extends Component {
     return (
       <div className="section8-container">
         <ScrollAnimation className = "section8-text" animateIn="fadeIn">
-          Want to turn your business carbon negative?<br/><span>Write to us</span>
+          It’s time to rethink black.
         </ScrollAnimation>
       </div>
     );

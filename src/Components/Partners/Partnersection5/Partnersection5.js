@@ -7,9 +7,9 @@ export default class Partnersection5 extends Component {
     return (
       <div className="partnersection5-container">
         <h1>Join us</h1>
-        <ScrollAnimation className = "partners5-text" animateIn="fadeIn">
-          We belive the power to shape consumer mindset lies with your business.
-          Our carbon negative materials can set new industry standards.
+        <ScrollAnimation className="partners5-text" animateIn="fadeIn">
+          The power to shape consumer mindset lies with your business. Help us
+          create new industry standards for sustainable materials.
         </ScrollAnimation>
       </div>
     );

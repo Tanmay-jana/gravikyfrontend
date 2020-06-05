@@ -17,20 +17,23 @@ export default class Psection3 extends Component {
           apparel, and packaging companies
         </p>
         <ScrollAnimation className="product-feature-section" animateIn="fadeIn">
-        <div className="product-feature-block">
+          <div className="product-feature-block">
             <img src={forest} alt="forest" />
             <h4>Environmental impact</h4>
             <p>50-150% reduction in carbon footprint</p>
           </div>
           <div className="product-feature-block">
             <img src={firewall} alt="firewall" />
-            <h4>Compliance<br/> {" "}</h4>
+            <h4>
+              Compliance
+              <br />{" "}
+            </h4>
             <p>As safe as any other ink on the market</p>
           </div>
           <div className="product-feature-block">
             <img src={trolley} alt="trolley" />
-            <h4>Efficient</h4>
-            <p>1 litre produces 0.2-0.3kg of ink</p>
+            <h4>Trusted</h4>
+            <p>More than 10,000 individuals and entities use our products</p>
           </div>
           <div className="product-feature-block">
             <img src={chart} alt="chart" />

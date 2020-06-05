@@ -45,9 +45,9 @@ export default class Footer extends Component {
         </div>
         <div className="contacts-block">
           <h4>CONTACT US</h4>
-          <p>The Castle Unit 345 2500 Castle Manhattan, New York City</p>
+          {/* <p>The Castle Unit 345 2500 Castle Manhattan, New York City</p> */}
           <p>T: +216 (0)40 3629 4753</p>
-          <p>E: hello@themenectar.com</p>
+          <p>E: talk@graviky.com</p>
         </div>
       </div>
     );

@@ -24,15 +24,8 @@ export default class Psection8 extends Component {
         >
           <div className="psection8-block">
             <img src={kaalink} alt="kaalink" />
-            <h4>
-              KAALINK
-              <br />
-              CAPTURE
-            </h4>
-            <p>
-              Our customisable tool KAALINK captures particulate matter from
-              diesel scrubbers, pyrolysis plants, boilers and other sources.
-            </p>
+            <h4>HARVEST CARBON EMISSIONS</h4>
+            <p>We acquire carbon emissions using our own capture technology</p>
           </div>
           <div className="psection8-block">
             <img src={analysis} alt="analysis" />
@@ -41,15 +34,20 @@ export default class Psection8 extends Component {
               STRONG
             </h4>
             <p>
-              Particulate matter is separated and pre-processed for treatment
+              We analyze and sort carbon streams by physical and material
+              properties
             </p>
           </div>
           <div className="psection8-block">
             <img src={people} alt="people" />
-            <h4>TREATMENT<br/><span>-</span></h4>
+            <h4>
+              TREATMENT
+              <br />
+              <span>-</span>
+            </h4>
             <p>
-              With our proprietary treatment method, effluents are converted
-              into advanced materials
+              With our proprietary treatment method, carbon emissions are turned
+              into usable carbon
             </p>
           </div>
           <div className="psection8-block">
@@ -60,8 +58,8 @@ export default class Psection8 extends Component {
               FORMULATION
             </h4>
             <p>
-              Our industrial formulation partners help us produce composites,
-              advanced inks, and coatings
+              This carbon is turned into different grades of inks, dispersions
+              and coatings
             </p>
           </div>
         </ScrollAnimation>
