@@ -47,7 +47,7 @@ class Header extends Component {
       <div
         className={
           this.state.scrolled === false
-            ? this.props.navid === "PARTNERSHIP"
+            ? this.props.navid === "PARTNERSHIP" || this.props.navid === "ABOUT US"
               ? "white-header-container"
               : "main-header-container"
             : "main-header-container-1"
@@ -78,7 +78,7 @@ class Header extends Component {
           <Link onClick={this.onClose} to="/partners">
             PARTNERSHIP
           </Link>
-          <Link onClick={this.onClose} to="/">
+          <Link onClick={this.onClose} to="/about-us">
             ABOUT US
           </Link>
           <Link onClick={this.onClose} to="/">
@@ -133,7 +133,7 @@ class Header extends Component {
                 : "link-style link-active"
             }
             onClick={() => this.linkClicked("ABOUT US")}
-            to="/"
+            to="/about-us"
           >
             ABOUT US
           </Link>

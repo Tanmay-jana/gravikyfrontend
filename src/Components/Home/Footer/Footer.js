@@ -22,7 +22,7 @@ export default class Footer extends Component {
           <a href="/partners" className="footer-link">
             PARTNERSHIP
           </a>
-          <a href="#" className="footer-link">
+          <a href="/about-us" className="footer-link">
             ABOUT US
           </a>
           <a href="#" className="footer-link">
