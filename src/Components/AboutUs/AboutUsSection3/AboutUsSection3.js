@@ -19,8 +19,8 @@ export default class AboutUsSection3 extends Component {
           <img className="aboutus-logo-img" src={edison} alt="edison" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="aboutus-logo-containers">
-          <img className="aboutus-logo-img1" src={TED} alt="TED" />
-          <img className="aboutus-logo-img1" src={forbes} alt="forbes" />
+          <img className="aboutus-logo-img1 ted-aboutus" src={TED} alt="TED" />
+          <img className="aboutus-logo-img1 forbes-logo" src={forbes} alt="forbes" />
           <img className="aboutus-logo-img1" src={dnda} alt="dnda" />
         </ScrollAnimation>
       </div>

@@ -19,7 +19,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 6%;
 }
 
 .aboutus-logo-img {
@@ -39,6 +39,14 @@
     transition: 200ms;
 }
 
+.ted-aboutus {
+    width: 9%;
+}
+
+.forbes-logo {
+    width: 6%;
+}
+
 .aboutus-logo-img1:hover,
 .aboutus-logo-img:hover {
     filter: grayscale(0%);
@@ -55,6 +63,7 @@
     .aboutus-logo-containers {
         flex-wrap: wrap;
         height: auto;
+        padding-bottom: 10%;
     }
 
     .aboutus-logo-img {
