@@ -9,7 +9,7 @@ export default class LandingPage extends Component {
         <h1>Decarbonize your production</h1>
         <p>
           We upcycle air pollution into sustainable inks, paints, coatings,
-          plastics and construction material
+          plastics and construction materials
         </p>
         <div className="landing-button-container">
           <a className="blue-button" href="#">

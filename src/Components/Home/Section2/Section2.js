@@ -19,10 +19,10 @@ export default class Section2 extends Component {
                 : "light-text"
             }
           >
-            Black, the most commonly used industrial color, is produced by
-            petroleum dependent processes that pollute the air. The WHO
-            estimates that 4.2 million premature deaths are linked to air
-            pollution. So we found a way to turn effluents into resources.
+            Black, the most commonly used industrial color, is produced with a
+            large carbon footprint that contributes to the 4.2 million premature
+            deaths linked to air pollution worldwide. So we found a way to turn
+            carbon emissions industrial materials.
           </p>
           <p
             className={

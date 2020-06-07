@@ -1,12 +1,14 @@
 .landing-page-container {
     width: 80%;
-    padding: 10% 10%;
+    padding: 0% 10%;
     background-image: url('../../../assets/Background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 768px;
+    justify-content: center;
 }
 
 .landing-page-container > h1 {
@@ -65,7 +67,7 @@
 @media screen and (max-width: 1024px) {
     .landing-page-container {
         width: 90%;
-        padding: 15% 5% 20% 5%;
+        padding: 0 5%;
         background-image: url('../../../assets/Background.jpg');
         background-repeat: no-repeat;
         background-size: 160%;
@@ -118,7 +120,7 @@
 
     .landing-page-container {
         width: 90%;
-        padding: 30% 5% 35% 5%;
+        padding: 0 5%;
         background-image: url('../../../assets/Background.jpg');
         background-repeat: no-repeat;
         background-size: 220%;
@@ -126,6 +128,7 @@
         flex-direction: column;
         align-items: center;
         background-position: center;
+        height: 100vh;
     }
 
     .landing-page-container > p {

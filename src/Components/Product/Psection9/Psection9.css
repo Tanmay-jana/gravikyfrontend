@@ -91,6 +91,10 @@
         font-size: 400%;
     }
 
+    .rnd-button {
+        padding: 15px 50px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -98,6 +102,10 @@
     .psection9-container {
         padding: 20% 7%;
 
+    }
+
+    .rnd-button {
+        padding: 15px 50px;
     }
 
     .psection9-right-section > img {

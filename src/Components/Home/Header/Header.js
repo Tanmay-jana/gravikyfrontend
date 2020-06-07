@@ -110,7 +110,7 @@ class Header extends Component {
               PRODUCTS
             </Link>
             <div className="dropdown-content">
-              <a href="/product/#Flexographic">FLEXOGRAPHIC</a>
+              <a href="/product/#Flexographic">PACKAGING INK</a>
               <a href="/product/#SilkScreen">SILK SCREEN INK</a>
               <a href="/product/#WritingInstruments">WRITING INSTRUMENTS</a>
             </div>
