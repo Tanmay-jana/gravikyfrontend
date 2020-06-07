@@ -41,7 +41,7 @@
     .partnersection5-container {
         background-image: url('../../../assets/meeting.png');
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 200%;
         padding: 7%;
         background-position: center;
     }
@@ -51,7 +51,8 @@
     }
 
     .partners5-text {
-        font-size: 150%;
+    padding-bottom: 10%;
+    font-size: 150%;
     }
 
 }
@@ -72,6 +73,7 @@
     .partners5-text {
         font-size: 100%;
         width: 100%;
+        padding-bottom: 10%;
     }
 
 }
