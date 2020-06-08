@@ -12,7 +12,7 @@ const fadeProperties = {
   infinite: true,
   indicators: true,
   // pauseOnHover: true,
-  arrows: true,
+  arrows: false,
 //   scale: 0.4,
 //   onChange: (oldIndex, newIndex) => {
 //     console.log(`fade transition from ${oldIndex} to ${newIndex}`);
@@ -27,7 +27,7 @@ export default class Partnersection2 extends Component {
           <div className="partnersection2-subcontainer">
             <div>
               <h1>
-                Use <br/>AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">for commercial packaging</span>
+                Use AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">for commercial packaging</span>
               </h1>
               <a href = "#contact-form">Contact sales</a>
             </div>
@@ -36,7 +36,7 @@ export default class Partnersection2 extends Component {
           <div className="partnersection2-subcontainer">
           <div>
               <h1>
-                Use <br/>AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">to make prints on apparel</span>
+                Use AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">to make prints on apparel</span>
               </h1>
               <a href = "#contact-form">Contact sales</a>
             </div>
@@ -45,7 +45,7 @@ export default class Partnersection2 extends Component {
           <div className="partnersection2-subcontainer">
           <div>
               <h1>
-                Use <br/>AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">in pens</span>
+                Use AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">in pens</span>
               </h1>
               <a href = "#contact-form">Contact sales</a>
             </div>

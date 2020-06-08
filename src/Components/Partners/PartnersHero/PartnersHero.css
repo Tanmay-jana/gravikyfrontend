@@ -27,11 +27,11 @@
     font-size: 450%;
     font-family: "JosefinBold";
     text-align: center;
+    margin: 0
 }
 
 .hero-section-text>p {
     text-align: center;
-    margin: 0;
     font-family: 'WorkSinRegular';
     line-height: 150%;
     font-size: 130%;

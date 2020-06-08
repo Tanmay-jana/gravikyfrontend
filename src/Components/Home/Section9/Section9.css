@@ -44,6 +44,15 @@ select.placeholder { color: #C6C6C6; }
     width: 55%;
 }
 
+@-moz-document url-prefix() {
+    select, select:-moz-focusring, select::-moz-focus-inner {
+       color: transparent !important;
+       text-shadow: 0 0 0 #000 !important;
+       background-image: none !important;
+       border:0;
+    }
+}
+
 .form-input {
     padding: 3% 5%;
     background: #fff;
@@ -54,19 +63,6 @@ select.placeholder { color: #C6C6C6; }
     margin: 2% 0%;
     resize: none;
     outline: none;
-}
-
-option {
-    width: 268px;
-    padding: 5px;
-    font-size: 16px;
-    line-height: 1;
-    border: 0;
-    border-radius: 5px;
-    height: 34px;
-    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
-    -webkit-appearance: none;
-    background-position-x: 244px;
 }
 
 .form-input:focus {

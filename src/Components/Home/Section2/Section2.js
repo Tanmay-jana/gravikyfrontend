@@ -35,7 +35,7 @@ export default class Section2 extends Component {
           </p>
         </ScrollAnimation>
         <div className="learn-more-button">
-          <a href="#">Learn more</a>
+          <a href="/product">Learn more</a>
         </div>
       </div>
     );

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -27,7 +28,7 @@ export default class Psection7 extends Component {
             <br />
             ASTM - D 4236 and California Prop 65 compliant
           </h4>
-          <a className = "artists-link" href = "#">See how artists used our pens <img src = {arrow} alt = "arrow"/></a>
+          <a className = "artists-link" href = "https://www.instagram.com/air.ink/" target = "_blank">See how artists used our pens <img src = {arrow} alt = "arrow"/></a>
         </ScrollAnimation>
       </div>
     );

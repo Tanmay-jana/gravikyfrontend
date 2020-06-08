@@ -170,7 +170,7 @@ class Header extends Component {
           </div>
           <img
             className={
-              this.state.scrolled === false ? "times-img" : "time-img-small"
+              this.state.scrolled === false ? "times-img" : "times-img"
             }
             src={times}
             alt="times"

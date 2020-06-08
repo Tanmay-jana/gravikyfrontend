@@ -49,6 +49,7 @@ export default class Footer extends Component {
           {/* <p>The Castle Unit 345 2500 Castle Manhattan, New York City</p> */}
           {/* <p>T: +216 (0)40 3629 4753</p> */}
           <p><i className="fa fa-envelope"></i>  talk@graviky.com</p>
+          <p>Cambridge, MA <br/>New Delhi, India</p>
         </div>
         <img className = "graviky-img" src = {graviky} alt = "graviky"/>
       </div>

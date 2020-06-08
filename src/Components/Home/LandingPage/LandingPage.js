@@ -15,7 +15,7 @@ export default class LandingPage extends Component {
           <a className="blue-button" href="/partners">
             Partner with us
           </a>
-          <a className="white-button" href="#">
+          <a className="white-button" href="/product">
             Learn more
           </a>
         </div>
