@@ -19,7 +19,7 @@ export default class Psection9 extends Component {
             using upcycled carbon emissions. Reach out to us to develop new
             materials and decarbonise your supply chain.
           </h4>
-          <a className="rnd-button" href="#">
+          <a className="rnd-button" href="#contact-form">
             Contact R&D
           </a>
         </ScrollAnimation>

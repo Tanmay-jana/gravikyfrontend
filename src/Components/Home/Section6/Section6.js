@@ -5,7 +5,7 @@ import firewall from "../../../assets/firewall.png";
 import forest from "../../../assets/forest.png";
 import chart from "../../../assets/chart.png";
 import rocket from "../../../assets/rocket.png";
-import trolley from "../../../assets/trolley.png";
+import shield from "../../../assets/shield.svg";
 import "./Section6.css";
 
 export default class Section6 extends Component {
@@ -31,7 +31,7 @@ export default class Section6 extends Component {
             </p>
           </div>
           <div className="feature-block">
-            <img src={trolley} alt="trolley" />
+            <img src={shield} alt="shield" />
             <h4>Trusted</h4>
             <p>By more than 10,000 individuals and entities</p>
           </div>

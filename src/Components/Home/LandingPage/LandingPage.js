@@ -12,7 +12,7 @@ export default class LandingPage extends Component {
           plastics and construction materials
         </p>
         <div className="landing-button-container">
-          <a className="blue-button" href="#">
+          <a className="blue-button" href="/partners">
             Partner with us
           </a>
           <a className="white-button" href="#">

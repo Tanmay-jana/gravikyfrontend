@@ -47,7 +47,7 @@ class Header extends Component {
       <div
         className={
           this.state.scrolled === false
-            ? this.props.navid === "PARTNERSHIP" || this.props.navid === "ABOUT US"
+            ? this.props.navid === "PARTNERSHIP"
               ? "white-header-container"
               : "main-header-container"
             : "main-header-container-1"
@@ -81,9 +81,9 @@ class Header extends Component {
           <Link onClick={this.onClose} to="/about-us">
             ABOUT US
           </Link>
-          <Link onClick={this.onClose} to="/">
+          <a onClick={this.onClose} href="#contact-form">
             CONTACT
-          </Link>
+          </a>
         </div>
         <div className="header-buttons-container">
           <Link
@@ -137,17 +137,17 @@ class Header extends Component {
           >
             ABOUT US
           </Link>
-          <Link
+          <a
             className={
               this.props.navid !== "CONTACT"
                 ? "link-style"
                 : "link-style link-active"
             }
-            onClick={() => this.linkClicked("CONTACT")}
-            to="/"
+            // onClick={() => this.linkClicked("CONTACT")}
+            href="#contact-form"
           >
             CONTACT
-          </Link>
+          </a>
           <div className="social-logo-container">
             <i
               onClick={() =>
@@ -163,7 +163,7 @@ class Header extends Component {
             ></i>
             <i
               onClick={() =>
-                window.open("https://www.instagram.com/anirudder/", "_blank")
+                window.open("https://www.instagram.com/air.ink/", "_blank")
               }
               className="fa fa-instagram"
             ></i>

@@ -1,13 +1,14 @@
 .partnersection5-container {
-    background-image: url('../../../assets/meeting.png');
+    /* background-image: url('../../../assets/meeting.png');
     background-repeat: no-repeat;
     background-size: 110%;
-    background-position: center;
+    background-position: center; */
     padding: 7% 10%;
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: #202020;
 }
 
 .partnersection5-container h1 {
@@ -30,20 +31,20 @@
 
 @media screen and (max-width: 1024px) {
     .partnersection5-container {
-        background-image: url('../../../assets/meeting.png');
+        /* background-image: url('../../../assets/meeting.png');
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 150%; */
         padding: 15% 5%;
     }
 }
 
 @media screen and (max-width: 900px) {
     .partnersection5-container {
-        background-image: url('../../../assets/meeting.png');
+        /* background-image: url('../../../assets/meeting.png');
         background-repeat: no-repeat;
-        background-size: 200%;
+        background-size: 200%; */
         padding: 7%;
-        background-position: center;
+        /* background-position: center; */
     }
 
     .partnersection5-container h1 {
@@ -59,11 +60,7 @@
 
 @media screen and (max-width: 500px) {
     .partnersection5-container {
-        background-image: url('../../../assets/meeting.png');
-        background-repeat: no-repeat;
-        background-size: 300%;
         padding: 20% 5%;
-        background-position: center;
     }
 
     .partnersection5-container h1 {

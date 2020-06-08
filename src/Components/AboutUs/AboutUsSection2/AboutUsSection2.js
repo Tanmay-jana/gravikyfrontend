@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import "./AboutUsSection2.css";
@@ -60,7 +61,7 @@ export default class AboutUsSection2 extends Component {
             <img src={aboutus7} alt="aboutus7" onClick={() => this.showSlide(8)}/>
             <img src={aboutus8} alt="aboutus8" onClick={() => this.showSlide(9)}/>
           </ScrollAnimation>
-          <a className="insta-link" href="#">
+          <a className="insta-link" href="https://www.instagram.com/air.ink/" target = "_blank">
             Check out more on our instagram <img src={arrow} alt="arrow" />
           </a>
       </div>

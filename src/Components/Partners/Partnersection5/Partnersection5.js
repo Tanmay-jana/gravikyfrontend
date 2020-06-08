@@ -12,7 +12,7 @@ export default class Partnersection5 extends Component {
           The power to shape consumer mindset lies with your business. Help us
           create new industry standards for sustainable materials.
         </ScrollAnimation>
-        <a className="contact-sales-button" href="#">
+        <a className="contact-sales-button" href="#contact-form">
           Contact Sales
         </a>
       </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import arrow from "../../../assets/arrow.png";
@@ -46,7 +47,7 @@ export default class Partnersection8 extends Component {
             <img src={recycle1} alt="recycle1" onClick={() => this.showSlide(3)}/>
             <img src={recycle3} alt="recycle3" onClick={() => this.showSlide(4)}/>
           </ScrollAnimation>
-          <a className="artists-link" href="#">
+          <a className="artists-link" href="https://www.instagram.com/air.ink/" target = "_blank">
             Check out more on our instagram <img src={arrow} alt="arrow" />
           </a>
         </div>

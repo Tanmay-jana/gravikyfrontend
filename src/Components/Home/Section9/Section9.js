@@ -77,7 +77,7 @@ class Section9 extends Component {
   render() {
     const alert = this.props.alert;
     return (
-      <div className="section9-container">
+      <div id = "contact-form" className="section9-container">
         <div
           className={this.state.isLoading === 1 ? "loading-block" : "invisible"}
         ></div>

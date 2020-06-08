@@ -26,7 +26,7 @@ export default class Psection extends Component {
             <br />
             Magnetically sortable
           </h4>
-          <a className = "contact-sales-button" href = "#">Contact Sales</a>
+          <a className = "contact-sales-button" href = "#contact-form">Contact Sales</a>
         </ScrollAnimation>
       </div>
     );

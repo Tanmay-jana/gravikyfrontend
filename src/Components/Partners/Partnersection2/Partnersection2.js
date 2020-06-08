@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import shirtImage from "../../../assets/shirt.png";
+import packageImg from "../../../assets/package.png";
+import penImage from "../../../assets/penImage.png";
 import { Slide } from "react-slideshow-image";
 import "./Partnersection2.css";
 
@@ -27,16 +29,16 @@ export default class Partnersection2 extends Component {
               <h1>
                 Use <br/>AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">for commercial packaging</span>
               </h1>
-              <a href = "#">Contact sales</a>
+              <a href = "#contact-form">Contact sales</a>
             </div>
-            <img src={shirtImage} alt="shirt" />
+            <img src={packageImg} alt="shirt" />
           </div>
           <div className="partnersection2-subcontainer">
           <div>
               <h1>
                 Use <br/>AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">to make prints on apparel</span>
               </h1>
-              <a href = "#">Contact sales</a>
+              <a href = "#contact-form">Contact sales</a>
             </div>
             <img src={shirtImage} alt="shirt" />
           </div>
@@ -45,9 +47,9 @@ export default class Partnersection2 extends Component {
               <h1>
                 Use <br/>AIR–INK<sup className = "register">®</sup><br/> <span className = "blue">in pens</span>
               </h1>
-              <a href = "#">Contact sales</a>
+              <a href = "#contact-form">Contact sales</a>
             </div>
-            <img src={shirtImage} alt="shirt" />
+            <img src={penImage} alt="shirt" />
           </div>
         </Slide>
       </div>

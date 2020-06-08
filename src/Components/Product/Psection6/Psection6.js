@@ -22,7 +22,7 @@ export default class Psection6 extends Component {
             <br />
             Certified for apparel
           </h4>
-          <a className="contact-sales-button" href="#">
+          <a className="contact-sales-button" href="#contact-form">
             Contact Sales
           </a>
         </ScrollAnimation>

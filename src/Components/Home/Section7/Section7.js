@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import card from "../../../assets/card.png";
@@ -16,10 +17,10 @@ export default class Section7 extends Component {
           </p>
           <img className="card-img-mobile-version" src={card} alt="card" />
           <div className="section7-button-container">
-            <a className="partner-button" href="#">
+            <a className="partner-button" href="/partners">
               Partner with us
             </a>
-            <a className="watch-video-button" href="#">
+            <a className="watch-video-button" href="https://www.youtube.com/watch?v=Ug5k1j5CfM8" target= "_blank">
               <img src={play} alt="Play" />
               Watch Video
             </a>

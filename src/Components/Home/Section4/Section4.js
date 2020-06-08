@@ -25,7 +25,7 @@ export default class Section4 extends Component {
             which is made from captured carbon emissions. It is carbon negative,
             safe, more versatile, and fits right into your production line.
           </p>
-          <a className="see-product-button" href="#">
+          <a className="see-product-button" href="/product">
             See products
           </a>
         </ScrollAnimation>

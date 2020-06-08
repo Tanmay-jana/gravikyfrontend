@@ -39,7 +39,7 @@ export default class Footer extends Component {
             <a href = "https://twitter.com/gravikylabs" target = "_blank">
               <i className="fa fa-twitter"></i>
             </a>
-            <a href = "https://www.instagram.com/anirudder/" target = "_blank">
+            <a href = "https://www.instagram.com/air.ink/" target = "_blank">
               <i className="fa fa-instagram"></i>
             </a>
           </div>
