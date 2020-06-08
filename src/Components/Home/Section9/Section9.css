@@ -18,13 +18,19 @@
     left: 0;
 }
 
-.section9-container > h1 {
+select::-ms-expand {
+    display: none;
+}
+
+select.placeholder { color: #C6C6C6; }
+
+.section9-container>h1 {
     font-family: 'JosefinBold';
     font-size: 450%;
     margin: 0;
 }
 
-.section9-container > p {
+.section9-container>p {
     font-family: 'WorkSinLight';
     font-size: 150%;
     width: 60%;
@@ -48,6 +54,23 @@
     margin: 2% 0%;
     resize: none;
     outline: none;
+}
+
+option {
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 244px;
+}
+
+.form-input:focus {
+    border: 2px solid rgb(141, 141, 141);
 }
 
 .form-input::placeholder {
@@ -74,12 +97,12 @@
         flex-direction: column;
     }
 
-    .section9-container > h1 {
+    .section9-container>h1 {
         font-family: 'JosefinBold';
         font-size: 300%;
         margin: 0;
     }
-    
+
     .message-send-form {
         display: flex;
         flex-direction: column;
@@ -108,7 +131,7 @@
         font-size: 150%;
         font-family: 'WorkSinRegular';
     }
-    
+
 }
 
 @media screen and (max-width: 500px) {
@@ -117,13 +140,13 @@
         padding: 22% 5%;
     }
 
-    .section9-container > h1 {
+    .section9-container>h1 {
         font-family: 'JosefinBold';
         font-size: 250%;
         margin: 0;
     }
 
-    .section9-container > p {
+    .section9-container>p {
         font-size: 100%;
         width: 100%;
     }

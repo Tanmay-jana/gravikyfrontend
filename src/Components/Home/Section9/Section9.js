@@ -9,11 +9,26 @@ class Section9 extends Component {
     isLoading: 0,
     name: "",
     email: "",
-    message: ""
+    message: "",
+    interest: "",
+    title: "",
+    organization: ""
   };
 
   getName = e => {
     this.setState({ name: e.target.value });
+  };
+
+  getTitle = e => {
+    this.setState({ title: e.target.value });
+  };
+
+  getOrganization = e => {
+    this.setState({ organization: e.target.value });
+  };
+
+  getInterest = e => {
+    this.setState({ interest: e.target.value });
   };
 
   getEmail = e => {
@@ -32,12 +47,15 @@ class Section9 extends Component {
         Authorization: `Bearer ${Token}`
       }
     };
-    const url = "https://api.airtable.com/v0/appXElmoIMUrIKvYd/Test";
+    const url = "https://api.airtable.com/v0/appUTLqlVE1hFteQd/Website%20Leads";
     var data = {
       fields: {
-        name: e.target.name.value,
-        email: e.target.email.value,
-        message: e.target.message.value
+        Organization: this.state.organization,
+        Email: this.state.email,
+        Title: this.state.title,
+        Name: this.state.name,
+        Message: this.state.message,
+        Interest: this.state.interest
       }
     };
     if (this.state.name !== "" && this.state.email !== "") {
@@ -45,10 +63,13 @@ class Section9 extends Component {
       axios
         .post(url, data, config)
         .then(res => {
-          alert.show("Thanks, We will get back to you");
-          this.setState({ isLoading: 0, name: "", email: "", message: "" });
+          alert.success("Thanks, We will get back to you! ;)");
+          this.setState({ isLoading: 0 , name: "", email: "", message: "", title: "", organization:"", interest: ""});
         })
-        .catch(error => alert.show("Somethin went wrong"));
+        .catch(error => {
+          this.setState({ isLoading: 0 });
+          alert.error("Somethin went wrong");
+        });
     } else {
       alert.show("Name and Email should not be empty");
     }
@@ -66,6 +87,21 @@ class Section9 extends Component {
           onSubmit={e => this.sendMessage(e, alert)}
           className="message-send-form"
         >
+          <select
+            className={`form-input minimal`}
+            value={this.state.interest}
+            onChange={this.getInterest}
+            required
+          >
+            <option id="disabled" value="" hidden disabled>
+              Choose interest
+            </option>
+            <option value="Packaging">AIR-INK for Packaging</option>
+            <option value="Apparel">AIR-INK for Apparel</option>
+            <option value="Writing Instruments">AIR-INK for Writing</option>
+            <option value="RnD">R&D and New Applications</option>
+            <option value="Press/General">General/Press</option>
+          </select>
           <input
             className="form-input"
             type="text"
@@ -75,6 +111,26 @@ class Section9 extends Component {
             required
             value={this.state.name}
             onChange={this.getName}
+          />
+          <input
+            className="form-input"
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Your title"
+            required
+            value={this.state.title}
+            onChange={this.getTitle}
+          />
+          <input
+            className="form-input"
+            type="text"
+            id="organization"
+            name="organization"
+            placeholder="Your organization"
+            required
+            value={this.state.organization}
+            onChange={this.getOrganization}
           />
           <input
             className="form-input"

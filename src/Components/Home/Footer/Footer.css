@@ -4,6 +4,16 @@
     color: #fff;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+.graviky-img {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    opacity: 0.2;
 }
 
 .footer-container h4 {

@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import graviky from '../../../assets/graviky-removebg.png'
 import "./Footer.css";
 
 export default class Footer extends Component {
@@ -46,9 +47,10 @@ export default class Footer extends Component {
         <div className="contacts-block">
           <h4>CONTACT US</h4>
           {/* <p>The Castle Unit 345 2500 Castle Manhattan, New York City</p> */}
-          <p>T: +216 (0)40 3629 4753</p>
-          <p>E: talk@graviky.com</p>
+          {/* <p>T: +216 (0)40 3629 4753</p> */}
+          <p><i className="fa fa-envelope"></i>  talk@graviky.com</p>
         </div>
+        <img className = "graviky-img" src = {graviky} alt = "graviky"/>
       </div>
     );
   }
